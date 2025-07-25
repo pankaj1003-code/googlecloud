@@ -1,0 +1,10 @@
+project_id = "qwiklabs-gcp-04-c3c8b7f85394"
+instance_name = "terraforminstance"
+image = "debian-cloud/debian-11"
+machine_type = "n2-standard-2"
+tags = ["web","dev"]
+netwokr_name = "mynetwork"
+firewall_name = "myfirewall"
+firewall_protol_allowed = "tcp"
+firewall_ports = "80"
+auto_create_subnetworks = "ture"
